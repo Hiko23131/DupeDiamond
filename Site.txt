@@ -1,0 +1,826 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <title>OГЭ–2025, математика: за­да­ния, от­ве­ты, ре­ше­ния</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+   <meta name="author" content="Гущин Дмит­рий, reshuege@gmail.com">
+   <meta name="description" content="Ты­ся­чи за­да­ний с ре­ше­ни­я­ми для под­го­тов­ки к ОГЭ−2024 по всем пред­ме­там. Си­сте­ма те­стов для под­го­тов­ки и са­мо­под­го­тов­ки к ОГЭ."> 
+    <meta name="keywords" content="ОГЭ−2024, под­го­тов­ка к ОГЭ, ОГЭ по ма­те­ма­ти­ке, ОГЭ по рус­ско­му языку, ОГЭ по фи­зи­ке, ОГЭ по био­ло­гии, ОГЭ об­ще­ст­во­зна­нию,  ОГЭ по химии, ОГЭ по ис­то­рии,  ОГЭ по ли­те­ра­ту­ре,  ОГЭ по био­ло­гии, ОГЭ по ин­фор­ма­ти­ке,  ОГЭ по ан­глий­ско­му языку, ОГЭ по фран­цуз­ско­му языку, ОГЭ по не­мец­ко­му языку, ОГЭ по ис­пан­ско­му языку"> 
+   <meta property="og:title" content="РЕШУ ОГЭ" />
+   <meta property="og:url" content="http://oge.sdamgia.ru" />
+   <meta property="og:image" content="http://ege.sdamgia.ru/adv/reshuoge-big.png" />
+   <meta property="og:description" content="Ты­ся­чи за­да­ний с ре­ше­ни­я­ми для под­го­тов­ки к OГЭ" />
+<meta name="yandex-verification" content="e0e7f90689c82992" /><script src="/js/_ajax.js" language="JavaScript"></script>
+<link rel="icon" href="/favicon.ico" sizes="any"><!-- 32×32 -->
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="mask-icon" href="/mask-icon.svg" color="#000000">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
+<link rel="manifest" href="/manifest.json">
+<link rel="stylesheet" href="/js/timepicker/jquery.ui.timepicker.css" type="text/css" >
+<link rel="stylesheet" href="/js/jquery-ui.min.css" type="text/css" >
+<LINK href="unimath.css" rel="STYLESHEET" type="text/css">
+<link rel="stylesheet" type="text/css" href="/js/soundmanager/css/mp3-player-button.css" />
+<link rel="stylesheet" type="text/css" href="/mq/mathquill.css" />
+<link rel="stylesheet" href="/style.css?v=13" type="text/css" />
+<link rel="stylesheet" href="/style_oge.css?" type="text/css" />
+<link rel="stylesheet" href="/style_math.css" type="text/css" >
+<link rel="stylesheet" href="/css/sh_hi.css" type="text/css" >
+<script src="//oge.sdamgia.ru/2BzXc09N6/3824e804-Qhq/smIoeBInsOwnKUnhMI5bTLICKhrwMRTCWp"></script>
+<script src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="unimath.js"></script>
+<script src="/js/jquery-migrate-1.0.0.js"></script>
+<script src="/js/jquery.tools.min.js"></script>
+<script src="/js/jquery-ui.js"></script>
+<script src="/js/timepicker/jquery.ui.timepicker.js"></script>
+<script src="/js/jquery.svg.js"></script>
+<script src="/js/paint.js?v=5"></script>
+<script src="/js/dark.js"></script>
+<link rel="stylesheet" href="/css/paint.css" type="text/css"/>
+<script src="/js/style.js?5"></script>
+
+
+
+<script>
+jQuery(document).ready(function(){
+        document.cookie = 'content_width='+jQuery('.sgia-main-content').width();
+   $ ( window ).resize(function() {document.cookie = 'content_width='+jQuery('.sgia-main-content').width();});
+
+});
+</script>
+<script>
+jQuery(document).ready(function(){
+  if (localStorage.getItem('cookie_accepted') != "1" && document.cookie.indexOf('cookie_accepted=yes') == -1){
+      $.get('/help?ajax=1&name=about_cookie', function(resp){
+        jQuery('<div style="text-align:left; display:none; position: fixed; bottom: 0px; left: 0px; z-index: 10000; background: #eee; border: 1px solid silver; padding: 10px; width:200px; font-size: 10px;">'+resp+'</div>').append(jQuery('<div style="float:right; width: 50px; cursor: pointer; background: #ddd; padding: 5px; border: 1px solid silver; border-radius: 3px; font-size: 12px; text-align: center; margin:5px 0 0 0">OK</div>').click(function(){jQuery(this).parent().remove(); localStorage.setItem('cookie_accepted', 1); jQuery.ajax({type:"GET", url:'https://sdamgia.ru/accept_cookie' ,xhrFields: {withCredentials: true}, crossDomain: true});})).appendTo('body').fadeIn();
+      }, 'html');
+  }
+});
+</script>
+
+<script>
+$.timepicker.setDefaults({
+            amPmText: ['', ''],
+            hourText: 'час',
+            minuteText: 'мин'
+        });
+$.datepicker.setDefaults({
+        monthNames:['ян­варь', 'фев­раль', 'март', 'ап­рель', 'май', 'июнь', 'июль', 'ав­густ', 'сен­тябрь', 'ок­тябрь', 'но­ябрь', 'де­кабрь'],
+        dayNamesMin: [ 'Вс', 'Пн' ,'Вт' ,'Ср' ,'Чт' , 'Пт' ,'Сб'],
+        dayNames: ['Вос­кре­се­нье', 'По­не­дель­ник' ,'Втор­ник' ,'Среда' ,'Чет­верг' , 'Пят­ни­ца' ,'Суб­бо­та'],
+        prevText: 'Пред.',
+        nextText: 'След.',
+        dateFormat: "dd.mm.yy",
+        firstDay: 1
+    });
+</script>
+
+<script type="text/javascript" src="/js/_ajax.js"></script>
+<script type="text/javascript" src="/js/soundmanager/script/soundmanager2.js"></script>
+<script type="text/javascript" src="/js/soundmanager/script/mp3-player-button.js"></script>
+<script src="/js/hilight.js"></script>
+<script>
+soundManager.url = 'https://oge.sdamgia.ru/js/soundmanager/swf/'; // required: path to directory containing SM2 SWF files
+soundManager.debugMode = false;
+</script>
+<script type="text/javascript" src="js/autoresize-mod.jquery.js">
+</script>
+<script type="text/javascript" src="/js/init.js"></script>
+<script type="text/javascript" src="/js/ajax_editor.js"></script>
+<script type="text/javascript" src="/mq/mathquill.js"></script>
+<script type="text/javascript" src="/mq/math.js"></script>
+<script type="text/javascript" src="/js/expandable.js"></script>
+
+<script src="/js/razbor.js"></script>
+
+<style>
+.share {display:inline-block; vertical-align:bottom; margin:0; line-height:24px; transition: all linear 0.2s; width: 75px; height: 24px; overflow: hidden;}
+.share:hover {width:165px}
+.share div {margin:0}
+.share .share_ph {line-height: 36px; height: 24px; display: inline-block; vertical-align: top; color: #090949; text-decoration:underline}
+.share .ya-share2 {display:none}
+.share:hover .share_ph {display:none}
+.share:hover .ya-share2 {display:inline-block}
+</style>
+<script>
+jQuery(document).ready(function(){
+jQuery('<div title="Ма­те­ри­а­лы, вы­да­ва­е­мые на ОГЭ" style="position: absolute; right: 10px; top: 10px; width: 30px; height: 30px; background: #fff; border: 1px solid silver; border-radius: 5px; background-image: url(/img/lifebuoy_24.png); background-repeat: no-repeat; background-position: center; cursor:pointer"></div>').appendTo('body').click(function(){
+    var div = jQuery('<div></div>');
+    div.append(jQuery('<iframe allowfullscreen></iframe>').attr('src', '/pre_instr?ajax=1').css({'width': '100%', 'height':'100%', 'border':'none'}));
+    div.dialog({width:800, height:800});
+});
+});
+</script>
+<script src="/js/texpaste.js"></script>
+<script src="/js/login_popup.js"></script>
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script>
+<script src="/react/dist/svg_draw.bundle.js?e"></script>
+<script src="/js/EQCSS.min.js"></script>
+<style>
+@media (min-width: 1500px) {
+    body {
+        background-size:100% !important;
+    }
+}
+
+.page_header_banner {
+    background-image: url("/img/math.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 11%;
+    display:block;
+}
+.sfbbe0a5f div{
+    
+}
+.counters {}
+</style>
+<script>jQuery(document).ready(function(){ var h = jQuery('.sgia-main-content').height(); if (h<630) { jQuery('iframe[name=action_target]').css('margin-top', (630-h) + 'px') }; if (!jQuery(".new_header").length>0) { jQuery(".sgia-main-content").children(":first").children().eq(1).after('<div class="new_header" align="center" style="padding-top:3px;vertical-align:middle;width:100%;line-height:25px;text-align:left; margin-bottom:2px;font-size:18px; color:#006"></div>'); } })</script>
+</head>
+<body style="margin:0;padding:0;background: #fff url('https://oge.sdamgia.ru/img/fon.svg?v=1') repeat-x;">
+<div class="wrapper">
+<div  role="banner" class="Header">
+	<a href="/"><img class="Header-Logo" src="/img/headers/logo.svg" /></a>
+       
+	<img class="Header-SubjectImg" src="/img/headers/math.png" />
+	<div class="Header-Title">
+		<span class="Header-SystemName">
+			<a class="Header-Link" target="_blank" href="https://sdamgia.ru"
+				>СДАМ ГИА</a
+			>:
+		</span>
+		РЕШУ<span class="Header-Halfspace"> </span>ОГЭ
+	</div>
+	<div class="Header-Desc">
+		Об­ра­зо­ва­тель­ный пор­тал для под­го­тов­ки к эк­за­ме­нам
+	</div>
+	<div class="Header-SubjectName" style="">Математика</div>
+</div>
+<div class="SubjectNav"   role="navigation">
+    <div class="pred_btn" onclick="jQuery('.pred_pan').slideToggle()">математика</div>
+    <div class="pred_pan">
+            <style>
+            .subj_menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    justify-content: center;
+}
+.subj_menu .subj, .subj_menu .subj_group, .subj_gr_name {
+  padding: 0;
+  background: transparent;
+  border-radius: 14px;
+  box-shadow: inset 0 0 0 1px #fff, inset 0 0 0 2px rgba(255, 102, 0, 0.5);
+  backdrop-filter: blur(3px);
+  flex-basis: 140px;
+  max-width: 200px;
+  text-align: center;
+  height: 28px;
+  line-height: 28px;
+  display: block;
+  flex-grow: 1;
+  text-decoration: none;
+  color: black;
+  margin: 0;
+}
+.subj_menu .subj_ghost {
+  opacity: 0;
+}
+.subj_menu .subj:hover {
+  color: #f60;
+}
+.subj_menu .subj_group {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  gap: 0 5px;
+}
+.subj_menu .subj_group .subj, .subj_menu .subj_group:hover .subj_gr_name{
+  display: none
+}
+.subj_menu .subj_group:hover .subj, .subj_menu .subj_group .subj_gr_name{
+  display: block;
+  background: #f8fbfd;
+}
+.subj_menu .subj_group:hover {
+  z-index: 100;
+}
+.subj_menu.subj_menu_mob {display:none;}
+@media screen and (max-width: 610px) {
+    .subj_menu {display:none;}
+    .subj_menu.subj_menu_mob {display:flex;}
+}
+            </style>
+            <div class="subj_menu"><a class="subj  active" rel="nofollow" href="https://math-oge.sdamgia.ru/?redir=1">Математика</a><a class="subj " rel="nofollow" href="https://inf-oge.sdamgia.ru/?redir=1">Информатика</a><div class="subj_group"><div class="subj_gr_name" >≡ Русский язык</div><a class="subj" rel="nofollow" href="https://rus-oge.sdamgia.ru/?redir=1">Письменный экзамен</a>
+<a class="subj" rel="nofollow" href="https://ruso-oge.sdamgia.ru/?redir=1">Устное собеседование</a></div><a class="subj " rel="nofollow" href="https://en-oge.sdamgia.ru/?redir=1">Английский язык</a><a class="subj " rel="nofollow" href="https://de-oge.sdamgia.ru/?redir=1">Немецкий язык</a><a class="subj " rel="nofollow" href="https://fr-oge.sdamgia.ru/?redir=1">Французский язык</a><a class="subj " rel="nofollow" href="https://sp-oge.sdamgia.ru/?redir=1">Испанский язык</a><a class="subj " rel="nofollow" href="https://phys-oge.sdamgia.ru/?redir=1">Физика</a><a class="subj " rel="nofollow" href="https://chem-oge.sdamgia.ru/?redir=1">Химия</a><a class="subj " rel="nofollow" href="https://bio-oge.sdamgia.ru/?redir=1">Биология</a><a class="subj " rel="nofollow" href="https://geo-oge.sdamgia.ru/?redir=1">География</a><a class="subj " rel="nofollow" href="https://soc-oge.sdamgia.ru/?redir=1">Обществознание</a><a class="subj " rel="nofollow" href="https://lit-oge.sdamgia.ru/?redir=1">Литература</a><a class="subj " rel="nofollow" href="https://hist-oge.sdamgia.ru/?redir=1">История</a></div><div class="subj_menu subj_menu_mob"><a class="subj  active" rel="nofollow" href="https://math-oge.sdamgia.ru/?redir=1">Математика</a><a class="subj " rel="nofollow" href="https://inf-oge.sdamgia.ru/?redir=1">Информатика</a><a class="subj" rel="nofollow" href="https://rus-oge.sdamgia.ru/?redir=1"> Русский язык Письменный экзамен</a><a class="subj" rel="nofollow" href="https://ruso-oge.sdamgia.ru/?redir=1"> Русский язык Устное собеседование</a><a class="subj " rel="nofollow" href="https://en-oge.sdamgia.ru/?redir=1">Английский язык</a><a class="subj " rel="nofollow" href="https://de-oge.sdamgia.ru/?redir=1">Немецкий язык</a><a class="subj " rel="nofollow" href="https://fr-oge.sdamgia.ru/?redir=1">Французский язык</a><a class="subj " rel="nofollow" href="https://sp-oge.sdamgia.ru/?redir=1">Испанский язык</a><a class="subj " rel="nofollow" href="https://phys-oge.sdamgia.ru/?redir=1">Физика</a><a class="subj " rel="nofollow" href="https://chem-oge.sdamgia.ru/?redir=1">Химия</a><a class="subj " rel="nofollow" href="https://bio-oge.sdamgia.ru/?redir=1">Биология</a><a class="subj " rel="nofollow" href="https://geo-oge.sdamgia.ru/?redir=1">География</a><a class="subj " rel="nofollow" href="https://soc-oge.sdamgia.ru/?redir=1">Обществознание</a><a class="subj " rel="nofollow" href="https://lit-oge.sdamgia.ru/?redir=1">Литература</a><a class="subj " rel="nofollow" href="https://hist-oge.sdamgia.ru/?redir=1">История</a></div></div>
+    <div style="clear:both"></div>
+</div>
+<div class="left_column_btn" onclick="jQuery('.left_column').slideToggle()">сайты - меню - вход - но­во­сти</div>
+<div class="left_column">
+    <div class="sdamgia_btns">
+    <a href="https://sdamgia.ru">СДАМ ГИА</a><a href="https://ege.sdamgia.ru">РЕШУ ЕГЭ</a><a href="https://oge.sdamgia.ru">РЕШУ ОГЭ</a><a href="https://vpr.sdamgia.ru">РЕШУ ВПР</a><a href="https://ct.sdamgia.ru">РЕШУ ЦТ</a>
+    </div>
+    <div class="menu" width="100%"  role="navigation"><div style="height:204px;width:160px;margin: auto;" class="s54a65f4s5d">
+<div class="no_dark"><div id="yandex_rtb_R-A-154002-11" style="width:160px;height:180px;margin: auto;margin-bottom:10px;"></div></div>
+</div>
+<script>
+if (parseInt(document.documentElement.clientWidth) >= 768) {
+		window.yaContextCb.push(()=>{
+		  Ya.Context.AdvManager.render({
+			renderTo: 'yandex_rtb_R-A-154002-11',
+statId: 102,
+			blockId: 'R-A-154002-11',
+			darkTheme: localStorage.getItem("theme")=="dark" || localStorage.getItem("theme") == "auto" && window.matchMedia && window.matchMedia("(prefers-color-scheme:dark)").matches
+		  })
+		})
+}
+</script><a href="/manual" title="Шкалы, ста­ти­сти­ка, оце­ни­ва­ние за­да­ний"><div class="menu_l">Об эк­за­ме­не</div></a>
+<a href="/prob-catalog" title="Руб­ри­ци­ро­ван­ные за­да­ния, ста­ти­сти­ка по ре­шен­ным и не­ре­шен­ным за­да­ни­ям"><div class="menu_l">Ка­та­лог за­да­ний</div></a>
+<a href="/methodist" title="Под­бор­ка тре­ни­ро­воч­ных работ, ре­аль­ных эк­за­ме­на­ци­он­ных ва­ри­ан­тов преды­ду­щих лет"><div class="menu_l"><font color="red">Ва­ри­ан­ты</font></div></a>
+<a href="/" title="Прой­ти те­сти­ро­ва­ние, про­ве­рить себя"><div class="menu_l">Уче­ни­ку</div></a>
+<a href="/teacher" title="Со­зда­ние и про­вер­ка работ для уча­щих­ся, класс­ный жур­нал"><div class="menu_l">Учи­те­лю</div></a>
+<!--<a href="/expert" title="Кри­те­рии про­вер­ки работ, за что сни­жа­ют баллы"><div class="menu_l">Экс­пер­ту</div></a>-->
+<a href="/course" title="Со­здать свой курс, за­дать за­да­ние уча­щим­ся ди­стан­ци­он­но"><div class="menu_l">Школа</div></a>
+<a href="/sprav" title="Крат­кий спра­воч­ник по пред­ме­ту"><div class="menu_l">Спра­воч­ник</div></a>
+<a href="/guestbook" title="Ска­зать доб­рые слова ре­дак­ции"><div class="menu_l">Ска­зать спа­си­бо</div></a>
+<a href="/callback?f=faq" title="За­дать во­прос об эк­за­ме­нах и о ра­бо­те пор­та­ла"><div class="menu_l">Во­прос &mdash; ответ</div></a></div>
+  
+<form class="search left_column__search" action="/problem" method="POST">
+	<label class="search__label" title="Для по­ис­ка на­жми­те кла­ви­шу Enter">
+		<input class="input search-input" type="text" name="id" placeholder="№/текст/ат­ри­бут">
+		<div class="search-icon search__search-icon">
+			<svg class="search-icon__svg" version="1.1" viewbox="0 0 27.9 50" x="0px" y="0px" xmlns="http://www.w3.org/2000/svg">
+				<circle class="search-icon__lens" cx="10.9" cy="24.1" r="9.4" />
+				<rect class="search-icon__handle" width="3" height="14.5" x="20" y="27.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -18.3066 25.467)" />
+			</svg>
+		</div>
+	</label>
+</form>
+<style>
+.input {box-sizing: border-box; margin: 0; padding: 5px 8px 6px; background: #f0f0f0; border: none; border-radius: 3px; box-shadow: none; outline: none;}
+.left_column__search {margin: 14px 0 7px;}
+.search__label {position: relative; display: block; cursor: text;}
+.search-input {width: 100%; max-width: 100% !important; margin: 0; padding: 6px 2px 7px 26px !important; background: #f0f0f0 !important; border: none !important; border-radius: 7px !important; 
+	box-shadow: none !important; outline: none;}
+.search__search-icon {position: absolute; top: -5px; left: 5.5px;}
+.search-icon {width: 14px;}
+.search-icon__svg {enable-background: new 0 0 27.9 50; }
+.search-icon__lens {fill: none; stroke: #006; stroke-width: 3; stroke-miterlimit: 10;}
+.search-icon__handle {fill: #006;}
+</style>
+
+    <div class="login" width="100%"><form action="" method="post">
+            <input type="text" name="user" value="" placeholder="Электронная почта" style="font-size:9pt; width:152px; padding:2px; margin:2px;  height:15px" /><br>
+            <input type="password" name="password" value="" placeholder="Пароль" style="font-size:9pt; width:152px; padding:2px; margin:2px;  height:15px" /><br>
+            <label><input type="checkbox" name="guest" value="1"> Чужой компьютер</label>
+            <input type="hidden" name="la" value="login"/>
+
+            <input type="submit" value="Войти"/>
+            <br><a href="/register">Зарегистрироваться</a>
+            <br><a href="/pass_change">Восстановить пароль</a>
+            <br><a href="/vkauth">Войти через ВКонтакте</a>
+            </form>
+            <script>var no_user = 1; notifications_list = [];</script><script src="/js/notifications.js?v=8"></script>НАШИ БОТЫ
+<table align="center" style="margin-bottom: 5px;"><tbody><tr><td align="left"><a href="https://vk.com/bot.sdamgia" target="_blank" title="Наш умный бот ВК" data-bot="vk"><img src="/img/left.png"></a></td><td width="5px"></td><td align="right"><a href="https://t.me/sdamgia_bot" target="_blank" title="Наш Те­ле­грам-бот"  data-bot="telegram"><img src="/img/right.png"></a></td></tr> </tbody></table>
+
+<a href="/img/blockadblock_chrome.jpg" target="_blank" class="news news_hot">
+	<div class="news__text">На сайте что-то не так? От­клю­чи­те ад­б­лок</div></a>
+
+
+<div class="login__title"><a href="https://sdamgia.ru/" target="_blank">Но­во­сти</a></div>
+
+<a href="/tzznf" target="_blank" class="news"> 
+	<div class="news__date">23&thinsp;октября</div>
+	<div class="news__text"><font color="red">Интервью Д. Д. Гущина о&nbsp;Решу ЕГЭ</font></div>
+</a>
+
+<a href="/An9IN" target="_blank" class="news"> 
+	<div class="news__date">1&thinsp;июня</div>
+	<div class="news__text">Мерч, 50% off!</div>
+</a>
+
+<!--
+<a href="/5eDKW" target="_blank" class="news"> 
+	<div class="news__date">25&thinsp;мая</div>
+	<div class="news__text"><font color="red">Интервью с Д. Гущиным</font></div>
+</a>
+
+
+<a href="/C4Hfo" target="_blank" class="news"> 
+	<div class="news__date">9&thinsp;апреля</div>
+	<div class="news__text"><font color="red">Мерч РЕШУ ЕГЭ!</font></div> -->
+</a>
+
+
+<a href="/AoiHA" target="_blank" class="news"> 
+	<div class="news__date">4&thinsp;ноября</div>
+	<div class="news__text">Сложные варианты из заданий OГЭ</div>
+</a>
+
+<a href="/bBTOj" target="_blank" class="news"> 
+	<div class="news__date">12&thinsp;октября</div>
+	<div class="news__text">Голосовые сообщения на сайте Решу ОГЭ</div>
+</a>
+
+
+<a href="/s4Gg0" target="_blank" class="news"> 
+	<div class="news__date">27&thinsp;сентября</div>
+	<div class="news__text">Телеграм-канал Решу ЕГЭ. Стильно. Модно. Молодёжно</div>
+</a>
+
+<!--
+<a href="/cKqEL" target="_blank" class="news"> 
+	<div class="news__date">25&thinsp;мая</div>
+	<div class="news__text">Ком­пью­тер­ная вер­сия ОГЭ по ин­фор­ма­ти­ке</div>
+</a>
+
+
+<a href="/UvSIS" target="_blank" class="news"> 
+	<div class="news__date">1&thinsp;мая</div>
+	<div class="news__text">Бе­се­ды для под­го­тов­ки к ОГЭ по всем пред­ме­там</div>
+</a>
+
+
+
+<a href="/Twi7q" target="_blank" class="new
+
+<a href="/Twi7q" target="_blank" class="news"> 
+	<div class="news__date">24&thinsp;мая</div>
+	<div class="news__text">Об­новлённая па­нель ин­стру­мен­тов</div>
+</a>
+
+<a href="/oRfxE" target="_blank" class="news"> 
+	<div class="news__date">1&thinsp;мая</div>
+	<div class="news__text">Новый сер­вис: можно ис­пра­вить ошиб­ки!</div>
+</a>
+
+<a href="/sczaU" target="_blank" class="news"> 
+	<div class="news__date">29&thinsp;ап­ре­ля</div>
+	<div class="news__text">Раз­ме­сти­ли ак­ту­аль­ные шкалы ОГЭ&#8239;&#8239;— 2023</div>
+</a>
+
+<a href="/gMydb" target="_blank" class="news"> 
+	<div class="news__date">24&thinsp;ап­ре­ля</div>
+	<div class="news__text">Учи­те­лю: об­нов­лен­ный класс­ный жур­нал</div>
+</a>
+
+<a href="/Ta3yQ" target="_blank" class="news"> 
+	<div class="news__date">21&thinsp;ап­ре­ля</div>
+	<div class="news__text">Раз­ме­сти­ли ва­ри­ан­ты из за­да­ний от­кры­то­го банка ФИПИ ОГЭ по рус­ско­му языку</div>
+</a>
+
+<a href="/tNhAQ" target="_blank" class="news"> 
+	<div class="news__date">7&thinsp;ап­ре­ля</div>
+	<div class="news__text">Новый сер­вис: ссыл­ка, чтобы за­пи­сать­ся к учи­те­лю</div>
+</a>
+
+<a href="/vFi5p" target="_blank" class="news"> 
+	<div class="news__date">6&thinsp;марта</div>
+	<div class="news__text">Из­ме­не­ния ВПР 2023</div>
+</a>
+
+<a href="/PO3HL" target="_blank" class="news"> 
+	<div class="news__date">31&thinsp;ок­тяб­ря</div>
+	<div class="news__text">Сер­ти­фи­ка­ты для учи­те­лей о ра­бо­те на Решу ЕГЭ, ОГЭ, ВПР</div>
+</a>
+
+
+<a href="https://vk.com/wall-34649478_191774" target="_blank" class="news"> 
+	<div class="news__date">9&thinsp;ок­тяб­ря</div>
+	<div class="news__text">Как вос­ста­но­вить до­ступ к Решу ЕГЭ, если у вас Windows XP</div>
+</a>
+<a href="/pYlls" target="_blank" class="news"> 
+	<div class="news__date">31&thinsp;ян­ва­ря</div>
+	<div class="news__text">Внед­ри­ли тёмную тему!</div>
+</a>
+<a href="/FhRcc" target="_blank" class="news"> 
+	<div class="news__date">9&thinsp;фев­ра­ля</div>
+	<div class="news__text"><font color ="red">Об ошиб&shy;ках в ма&shy;те&shy;ма&shy;ти&shy;ке</font>: про&shy;верь&shy;те бра&shy;у&shy;зер</div>
+</a>
+<a href="/vUJuc" target="_blank" class="news"> 
+	<div class="news__date">21&thinsp;марта</div>
+	<div class="news__text">Новый сер­вис: ри­со­ва­ние</div>
+</a>
+<a href="/MgUCl" target="_blank" class="news"> 
+	<div class="news__date">22&thinsp;де­каб­ря</div>
+	<div class="news__text">От&shy;кры&shy;ли но&shy;вый пор&shy;тал <font color="red">Ре&shy;шу Олимп</font>. Для под&shy;го&shy;тов&shy;ки к пе&shy;реч&shy;не&shy;вым олим&shy;пи&shy;а&shy;дам!</div>
+</a>
+<a href="/2lZ2d" target="_blank" class="news"> 
+	<div class="news__date">30&thinsp;марта</div>
+	<div class="news__text">Под­го­товь­ся к ЕГЭ или ОГЭ за 1,5 ме­ся­ца на курсе Флеш</div>
+</a>
+<a href="/X9IKy" target="_blank" class="news"> 
+	<div class="news__date">26&thinsp;сен­тяб­ря</div>
+	<div class="news__text">Под&shy;го&shy;тов&shy;ка к ОГЭ 2023 с ре&shy;пе&shy;ти&shy;то&shy;ром он&shy;лайн!
+Жми и за&shy;пи&shy;сы&shy;вай&shy;ся на ввод&shy;ный урок</div>
+</a>
+-->
+
+
+
+<div class="login__title">ЧУЖОЕ НЕ БРАТЬ!</div>
+
+<a href="/page/zaitchikov" target="_blank" class="news noapi" rel="nofollow">
+	<div class="news__text">Зай­чи­ков и По­ва­ля­ев ста­щи­ли наши тесты</div></a><div class="login__social-links">
+	<a href="https://vk.com/reshuoge" target="_blank" class="button_vk">Наша груп­па</a>
+
+	<!-- Мо­биль­ные при­ло­же­ния:-->
+</div>
+<!--
+<a class="button-store" style="padding:0;position:absolute;bottom:0;left:0;background-position: 0 0;border-bottom-left-radius: 5px !important;" href="https://play.google.com/store/apps/details?id=com.reshuoge" target="_blank" title="Ан­дро­и­ды"></a>
+<a class="button-store" style="padding:0;position:absolute;bottom:0;right:0;background-position: 0px -24px;border-bottom-right-radius: 5px !important;" href="https://itunes.apple.com/ru/app/%D1%80%D0%B5%D1%88%D1%83-%D0%BE%D0%B3%D1%8D/id1107265195?l=ru&mt=8" target="_blank" title="Дж­об­сы"></a>
+--></div>
+    <style>
+@media screen and (max-width: 768px) {
+.mobile_hide {
+display: none;
+}
+}
+</style>
+
+<div class="no_dark mobile_hide">
+<br><br>
+<center>
+<!--
+
+
+-->
+
+<div id="yandex_rtb_R-A-154002-3" style="width:160px;overflow:hidden"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-154002-3',
+statId: 102,
+    blockId: 'R-A-154002-3'
+  })
+})</script>
+
+
+</center>
+
+<div class="google_ad_left_a" style="margin:0; padding:0"></div>
+<div class="google_ad_left">
+<div id="yandex_rtb_R-A-154002-4" style="width:160px;overflow:hidden"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-154002-4',
+statId: 102,
+    blockId: 'R-A-154002-4'
+  })
+})</script>
+
+<!--
+
+-->
+<!-- блок бо­ко­вой адап­тив­ный -->
+<!--
+
+
+-->
+</div>
+<script>
+jQuery(window).scroll(function(){
+    if (!jQuery('.menu').is(':visible')) return;
+    var div = jQuery('.google_ad_left');
+    var adiv = jQuery('.google_ad_left_a');
+    var top = adiv.offset().top;
+    if (top < window.scrollY && window.scrollY < jQuery(document).height() - div.height() - 400){
+            div.css({'position':'relative', 'top':window.scrollY-top});
+    }
+    else if (top >= window.scrollY){
+        div.css({'position':'relative', 'top':0});
+    }
+});
+</script>
+</div>
+</div>
+<div width="100%" class="sgia-main-content" role="main">
+    <div class="sfbbe0a5f"><div style="margin:auto"><div></div>
+<script>
+var div_hight_low = document.currentScript.previousElementSibling;
+if (parseInt(document.documentElement.clientWidth) < 768) {
+        div_hight_low.innerHTML = '<div class="no_dark"><div id="yandex_rtb_R-A-154002-7" style="height: 12vh;max-width: calc(100vw - 20px);margin-top: 0px;"></div></div>';
+	window.yaContextCb.push(()=>{
+	  Ya.Context.AdvManager.render({
+		renderTo: 'yandex_rtb_R-A-154002-7',
+statId: 102,
+		blockId: 'R-A-154002-7',
+		darkTheme: localStorage.getItem("theme")=="dark" || localStorage.getItem("theme") == "auto" && window.matchMedia && window.matchMedia("(prefers-color-scheme:dark)").matches
+	  })
+	})
+} else {
+    div_hight_low.innerHTML = '<div class="no_dark"><div id="yandex_rtb_R-A-154002-1" class="mh"></div></div>'
+	window.yaContextCb.push(()=>{
+	  Ya.Context.AdvManager.render({
+		renderTo: 'yandex_rtb_R-A-154002-1',
+statId: 102,
+		blockId: 'R-A-154002-1',
+		darkTheme: localStorage.getItem("theme")=="dark" || localStorage.getItem("theme") == "auto" && window.matchMedia && window.matchMedia("(prefers-color-scheme:dark)").matches
+	  })
+	})
+}
+</script></div><div style="margin:auto"><div></div>
+<script>
+var div_hight_low = document.currentScript.previousElementSibling;
+if (parseInt(document.documentElement.clientWidth) < 768) {
+        
+                div_hight_low.innerHTML = '<div class="no_dark"><div id="yandex_rtb_R-A-154002-8" style="height: 12vh;max-width: calc(100vw - 20px);margin-top: 0px;"></div></div>';
+        
+	window.yaContextCb.push(()=>{
+	  Ya.Context.AdvManager.render({
+		renderTo: 'yandex_rtb_R-A-154002-8',
+statId: 102,
+		blockId: 'R-A-154002-8',
+		darkTheme: localStorage.getItem("theme")=="dark" || localStorage.getItem("theme") == "auto" && window.matchMedia && window.matchMedia("(prefers-color-scheme:dark)").matches
+	  })
+	})
+} else {
+    div_hight_low.innerHTML = '<div class="no_dark"><div id="yandex_rtb_R-A-154002-2" class="mh"></div></div>'
+	window.yaContextCb.push(()=>{
+	  Ya.Context.AdvManager.render({
+		renderTo: 'yandex_rtb_R-A-154002-2',
+statId: 102,
+		blockId: 'R-A-154002-2',
+		darkTheme: localStorage.getItem("theme")=="dark" || localStorage.getItem("theme") == "auto" && window.matchMedia && window.matchMedia("(prefers-color-scheme:dark)").matches
+	  })
+	})
+}
+</script></div></div>
+    <script type="text/javascript">
+    var preview_timeout;
+    var preview_timeout2;
+    function update_preview(taedit, divname){
+            if (!document.getElementById('pen'+divname).checked) return;
+            window.clearTimeout(preview_timeout);
+            preview_timeout = window.setTimeout(function(){update_div_post('/?c=preview',taedit.value, divname+'_preview');}, 1000);
+            }
+    function jq_preview(divname, now){
+            var ed = $('#editor_'+divname);
+            if (ed.length == 0)
+                ed = $('#'+divname);
+            if (now){
+                $.post('/?c=preview',{body:ed.val()},function(resp){$('#'+divname+'_preview').html(resp)});
+                return
+                }
+            var pto = ed.data('pto');
+            if (pto)
+                window.clearTimeout(pto);
+            ed.data('pto', window.setTimeout(function(){$.post('/?c=preview',{body:ed.val()},function(resp){$('#'+divname+'_preview').html(resp)});}, 1000));
+            }
+    function jq_preview2(){
+            var ed = $(this);
+            if (ed.data('preview') === undefined){
+                var pv = $('<div></div>').width(ed.width).insertAfter(ed);
+                ed.data('preview', pv);
+            }
+            var pto = ed.data('pto');
+            if (pto)
+                window.clearTimeout(pto);
+            ed.data('pto', window.setTimeout(function(){$.post('/?c=preview',{body:ed.val()},function(resp){ed.data('preview').html(resp)});}, 1000));
+            }
+    function jq_preview3(t, now){
+            if (typeof(t) == 'string')
+                var ed = $('#editor_' + t).first();
+            else
+                var ed = $(t);
+            if (ed.data('preview') === undefined){
+                var pv = $('<div></div>').width(ed.width).insertAfter(ed);
+                ed.data('preview', pv);
+            }
+            if (now) {
+                ed.data('pto', window.setTimeout(function(){$.post('/?c=preview',{body:ed.val()},function(resp){ed.data('preview').html(resp)});}, 1000));
+            }
+            var pto = ed.data('pto');
+            if (pto)
+                window.clearTimeout(pto);
+            ed.data('pto', window.setTimeout(function(){$.post('/?c=preview',{body:ed.val()},function(resp){ed.data('preview').html(resp)});}, 1000));
+            }
+    </script><div class="new_header" align="center" style="padding-top:3px;vertical-align:middle;width:100%;line-height:25px;text-align:left; margin-bottom:2px;font-size:18px; color:#006"><b>Вариант № 69027811<!--np-->, составитель Ирина Буданова<!--np--></b></div><!--np--><br><!--np--><center><b>Для прохождения этого варианта необходимо <a href="?id=69027811" onclick="login_popup(undefined, $(this).attr('href')); return false">авторизоваться</a>.</b></center>
+<!--np--><br><span id="debug"></span><br/><a href="#" id="tophref" style="display:none">Наверх</a>
+<script language="JavaScript">
+function gelpos(elemId)
+    {
+        var elem = document.getElementById(elemId);
+        var w = elem.offsetWidth;
+        var h = elem.offsetHeight;
+        var l = 0;
+        var t = 0;
+        while (elem){
+            l += elem.offsetLeft;
+            t += elem.offsetTop;
+            elem = elem.offsetParent;
+        }
+        return {"left":l, "top":t, "width": w, "height":h};
+    }
+    if (gelpos('debug').top > 1200) document.getElementById('tophref').style.display = '';</script><!--np-->
+    <iframe name="action_target" style="width:0; height:0; border:0px solid #fff"></iframe>
+    <div style="margin-top:50px"><div style="margin:auto"></div><!--
+ 
+-->
+<!-- блок ниж­ний адап­тив­ный -->
+<!--
+
+
+
+
+
+-->
+
+<div class="no_dark">
+<div id="yandex_rtb_R-A-154002-5"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-154002-5',
+statId: 102,
+    blockId: 'R-A-154002-5',
+darkTheme: localStorage.getItem("theme")=="dark" || localStorage.getItem("theme") == "auto" && window.matchMedia && window.matchMedia("(prefers-color-scheme:dark)").matches
+  })
+})</script>
+
+<div id="yandex_rtb_R-A-154002-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-154002-6',
+statId: 102,
+    blockId: 'R-A-154002-6',
+darkTheme: localStorage.getItem("theme")=="dark" || localStorage.getItem("theme") == "auto" && window.matchMedia && window.matchMedia("(prefers-color-scheme:dark)").matches
+  })
+})</script>
+</div>
+
+
+
+<div class="no_dark">
+<div id="yandex_rtb_R-A-154002-13" style="margin:0"></div>
+</div>
+
+<!-- Yandex.RTB R-A-154002-13 -->
+<script>
+window.yaContextCb.push(()=>{ Ya.Context.AdvManager.render({ "blockId": "R-A-154002-13", "type": "floorAd",
+darkTheme: localStorage.getItem("theme")=="dark" || localStorage.getItem("theme") == "auto" && window.matchMedia && window.matchMedia("(prefers-color-scheme:dark)").matches }) })
+</script>
+
+<!--
+<div id="bigBanner" style="bottom: 0px; position: fixed; z-index: 99999998; width: 100%; max-height: 100px; left: 0px; background-color: #808080;">
+<div id="stickyClose" style="z-index: 99999999;width: 30px;height: 30px;position: absolute;top: 0px;right: 0px;border: 1px solid rgba(0,0,0,0.5);border-radius: 4px; display: none">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><rect fill="#fff" x="0" y="0" rx="4" width="100%" height="100%"></rect><polygon points="27,13.7 26.3,13 20,19.3 13.7,13 13,13.7 19.3,20 13,26.3 13.7,27 20,20.7 26.3,27 27,26.3 20.7,20"></polygon></svg>
+</div>
+
+<script type="text/javascript">
+var stickyClose = document.getElementById("stickyClose");
+
+function render () {
+    stickyClose.style.display = 'unset';
+    stickyClose.addEventListener ('click', function () {
+        var bigBanner = document.getElementById('bigBanner');
+        bigBanner.parentNode.removeChild (bigBanner);
+        });
+     var timer = setTimeout( function () {
+         bigBanner.parentNode.removeChild (bigBanner)
+         }, 7000);
+}
+</script>
+
+<div class="no_dark">
+<div id="yandex_rtb_R-A-154002-9" style="margin:0"></div>
+</div>
+
+<script type="text/javascript">
+if (window.innerWidth <= 500){
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-154002-9",             // не­об­хо­ди­мо ука­зать нуж­ный id блока
+                renderTo: "yandex_rtb_R-A-154002-9", // не­об­хо­ди­мо ука­зать div id куда нужно от­ри­со­вать бан­нер
+statId: 102,
+                async: true,
+                onRender: render,
+                refresh: '0',
+darkTheme: localStorage.getItem("theme")=="dark" || localStorage.getItem("theme") == "auto" && window.matchMedia && window.matchMedia("(prefers-color-scheme:dark)").matches
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+    }
+</script>
+</div>
+-->
+
+<style>
+    .notice_win {
+        text-align: left;
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        z-index: 10001;
+        background: white;
+        padding: 15px;
+        width: 315px;
+        font-size: 10px;
+        border-radius: 16px;
+        box-shadow: 0 2px 8px rgb(18 17 36 / 4%), 0 4px 32px rgb(18 17 36 / 8%);
+        text-align: justify;
+    }
+    .btn_win {
+        /*float:right;*/
+        cursor: pointer;
+        background: white;
+        padding: 5px;
+        border: 1px solid silver;
+        border-radius: 3px;
+        font-size: 12px;
+        text-align: center;
+        margin: 10px 10px 0 0;
+    }
+    .btn_win:hover {
+        opacity: 70%;
+    }
+</style>
+
+<script>
+    let isWin7 = navigator.userAgent.includes('Windows NT 6.1')
+    let isWin10 = navigator.userAgent.includes('Windows NT 10.0')
+    let date_now = new Date();
+    jQuery(document).ready(function () {
+        if (isWin7 && Number(localStorage.getItem('maint_later')) < Number(date_now) && localStorage.getItem('flag_win7') !== 'done') {
+            jQuery('<div class="notice_win">Дру­зья, <br>поль&shy;зо&shy;ва&shy;те&shy;ли опе&shy;ра&shy;ци&shy;он&shy;ной сис&shy;те&shy;мы Windows&#8239;7 мо&shy;гут стал&shy;ки&shy;вать&shy;ся с не&shy;кор&shy;рект&shy;ной ра&shy;бо&shy;той сай&shy;та (не на&shy;жи&shy;ма&shy;ют&shy;ся кноп&shy;ки, не ото&shy;бра&shy;жа&shy;ют&shy;ся фор&shy;му&shy;лы). Уста&shy;рев&shy;шая опе&shy;ра&shy;ци&shy;он&shy;ная сис&shy;те&shy;ма ав&shy;то&shy;ма&shy;ти&shy;чес&shy;ки не об&shy;нов&shy;ля&shy;ет сер&shy;ти&shy;фи&shy;кат без&shy;опас&shy;нос&shy;ти. Раз&shy;ра&shy;бо&shy;та&shy;ли ин&shy;струк&shy;цию для об&shy;нов&shy;ле&shy;ния сер&shy;ти&shy;фи&shy;ка&shy;та вруч&shy;ную. Бу&shy;дет дейст&shy;во&shy;вать до 2035 го&shy;да. <br><br><a href="/Ин­струк­ция по об­нов­ле­нию сер­ти­фи­ка­та windows 7.pdf" target="_blank">Ска­чать ин­струк­цию</a> &#8239;&#8239;&#8239;&#8239;&#8239;&#8239;<a href="/root.crt" target="_blank">Ска­чать сер­ти­фи­кат</a><br></div>')
+                .append(jQuery('<button class="btn_win" id="later_btn">На­пом­нить через не­де­лю</button>')
+                .click(function(){let date_l = Number(date_now) + 604800000;localStorage.setItem('maint_later', date_l);jQuery(this).parent().remove();}))
+                .append(jQuery('<button class="btn_win" id="done_btn">Боль­ше не по­ка­зы­вать</button>')
+                    .click(function(){localStorage.setItem('flag_win7', 'done');jQuery(this).parent().remove();}))
+                .appendTo('body').fadeIn();
+        }
+    });
+</script>
+<!-- Yandex.RTB R-A-154002-15 -->
+<script>
+window.yaContextCb.push(()=>{
+ Ya.Context.AdvManager.render({
+  "blockId": "R-A-154002-15",
+  "type": "fullscreen",
+  "platform": "touch"
+ })
+})
+</script></div>
+
+<div class="Footer-New">
+    <div class="Footer-Menu"><a href="/about">О про­ек­те</a> &middot; <a href="/staff">Ре­дак­ция</a> &middot; <a href="/legal">Пра­во­вая ин­фор­ма­ция</a>  &middot; <a href="/advert">О ре­кла­ме</a>  </div>
+<div class="Footer-Copyright"> <nobr>© Гущин Д. Д., 2011&mdash;2025</nobr></div>
+</div>
+</div>
+<div class="counters">
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter51144176 = new Ya.Metrika2({
+                    id:51144176,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/51144176" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- Rating@Mail.ru counter -->
+<script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "2895241", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "topmailru-code");
+</script><noscript><div>
+<img src="//top-fwz1.mail.ru/counter?id=2895241;js=na" style="border:0;position:absolute;left:-9999px;" alt="" />
+</div></noscript>
+<!-- /Rating@Mail.ru counter -->
+</div>
+<div id="overlay"><div class="contentWrap" id="overlay_content"></div></div>
+</di
